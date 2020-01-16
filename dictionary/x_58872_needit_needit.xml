@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
+        <element label="Custom_Field1" mandatory="true" max_length="40" name="custom_field1" type="glide_date_time"/>
+        <element label="Custom field2" mandatory="true" max_length="40" name="custom_field2" type="color"/>
+        <element label="Insert audio" max_length="1000" name="insert_audio" read_only="true" type="audio"/>
+        <element attributes="encode_utf8=false" label="Available users" mandatory="true" max_length="32" name="u_available_user" reference="sys_user" type="reference"/>
+    </element>
+</database>
